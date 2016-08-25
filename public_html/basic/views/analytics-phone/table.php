@@ -16,7 +16,7 @@ $this->registerCssFile('/jqGrid/plugins/ui.multiselect.css');
 //jqGrid
 $this->registerCssFile('/jqGrid/css/ui.jqgrid.css');
 $this->registerJsFile('/jqGrid/js/i18n/grid.locale-en.js',  ['position' => \yii\web\View::POS_HEAD]);
-$this->registerJsFile('/jqGrid/js/jquery.jqGrid.min.js',  ['position' => \yii\web\View::POS_HEAD]);
+$this->registerJsFile('/jqGrid/js/jquery.jqgrid.min.js',  ['position' => \yii\web\View::POS_HEAD]);
 
 //jqGrid Extension
 $this->registerCssFile('/client/jqgrid-ext.css');
