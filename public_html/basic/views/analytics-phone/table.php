@@ -3,36 +3,36 @@ use yii\helpers\Html;
 
 
 //jQuery
-$this->registerJsFile('/jqgrid/js/jquery/1.7.2/jquery.min.js', ['position' => \yii\web\View::POS_HEAD]);
+$this->registerJsFile('/jqGrid/js/jquery/1.7.2/jquery.min.js', ['position' => \yii\web\View::POS_HEAD]);
 
 //jQuery UI
-$this->registerJsFile('/jqgrid/js/jquery-ui/1.8.11/jquery-ui.min.js',  ['position' => \yii\web\View::POS_HEAD]);
-$this->registerCssFile('/jqgrid/js/jquery-ui/1.8.11/themes/redmond/jquery.ui.all.min.css');
+$this->registerJsFile('/jqGrid/js/jquery-ui/1.8.11/jquery-ui.min.js',  ['position' => \yii\web\View::POS_HEAD]);
+$this->registerCssFile('/jqGrid/js/jquery-ui/1.8.11/themes/redmond/jquery.ui.all.min.css');
 
 
-$this->registerJsFile('/jqgrid/plugins/ui.multiselect.js',  ['position' => \yii\web\View::POS_HEAD]);
-$this->registerCssFile('/jqgrid/plugins/ui.multiselect.css');
+$this->registerJsFile('/jqGrid/plugins/ui.multiselect.js',  ['position' => \yii\web\View::POS_HEAD]);
+$this->registerCssFile('/jqGrid/plugins/ui.multiselect.css');
 
 //jqGrid
-$this->registerCssFile('/jqgrid/css/ui.jqgrid.css');
-$this->registerJsFile('/jqgrid/js/i18n/grid.locale-en.js',  ['position' => \yii\web\View::POS_HEAD]);
-$this->registerJsFile('/jqgrid/js/jquery.jqGrid.min.js',  ['position' => \yii\web\View::POS_HEAD]);
+$this->registerCssFile('/jqGrid/css/ui.jqgrid.css');
+$this->registerJsFile('/jqGrid/js/i18n/grid.locale-en.js',  ['position' => \yii\web\View::POS_HEAD]);
+$this->registerJsFile('/jqGrid/js/jquery.jqGrid.min.js',  ['position' => \yii\web\View::POS_HEAD]);
 
 //jqGrid Extension
 $this->registerCssFile('/client/jqgrid-ext.css');
 $this->registerJsFile('/client/jqgrid-ext.js',  ['position' => \yii\web\View::POS_HEAD]);
 
 //Other plugins
-$this->registerJsFile('/jqgrid/js/jquery/form/2.67/jquery.form.min.js',  ['position' => \yii\web\View::POS_HEAD]);
-$this->registerJsFile('/jqgrid/js/jquery/form/2.67/jquery.form.min.js',  ['position' => \yii\web\View::POS_HEAD]);
+$this->registerJsFile('/jqGrid/js/jquery/form/2.67/jquery.form.min.js',  ['position' => \yii\web\View::POS_HEAD]);
+$this->registerJsFile('/jqGrid/js/jquery/form/2.67/jquery.form.min.js',  ['position' => \yii\web\View::POS_HEAD]);
 
 //range_picker
-$this->registerJsFile('/jqgrid/range_picker/js/daterangepicker.jQuery.compressed.edit.js',  ['position' => \yii\web\View::POS_HEAD]);
-$this->registerCssFile('/jqgrid/range_picker/css/ui.daterangepicker.css');
+$this->registerJsFile('/jqGrid/range_picker/js/daterangepicker.jQuery.compressed.edit.js',  ['position' => \yii\web\View::POS_HEAD]);
+$this->registerCssFile('/jqGrid/range_picker/css/ui.daterangepicker.css');
 
 //Code highlighter
-$this->registerJsFile('/jqgrid/highlightjs/6.0/highlight.min.js',  ['position' => \yii\web\View::POS_HEAD]);
-$this->registerCssFile('/jqgrid/highlightjs/6.0/styles/vs.css');
+$this->registerJsFile('/jqGrid/highlightjs/6.0/highlight.min.js',  ['position' => \yii\web\View::POS_HEAD]);
+$this->registerCssFile('/jqGrid/highlightjs/6.0/styles/vs.css');
 
 ?>
 
