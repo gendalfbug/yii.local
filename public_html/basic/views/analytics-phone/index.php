@@ -205,9 +205,9 @@ $this->registerCssFile('/css/analytics-phone/index.css');
             <!--4 содержимое-->
             <br/>
             <ul>
-                <li><a href="/basic/web/analytics-phone/create">Создание 10 000 записей в таблице 'analytics_phone'</a>
+                <li><a href="/analytics-phone/create">Создание 10 000 записей в таблице 'analytics_phone'</a>
                 </li>
-                <li><a href="/basic/web/analytics-phone/delete">Удаление всех записей из таблицы 'analytics_phone'</a>
+                <li><a href="/analytics-phone/delete">Удаление всех записей из таблицы 'analytics_phone'</a>
                 </li>
             </ul>
 
