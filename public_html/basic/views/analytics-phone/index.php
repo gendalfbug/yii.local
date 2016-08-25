@@ -35,8 +35,8 @@ $this->registerJsFile('/jqgrid/highlightjs/6.0/highlight.min.js', ['position' =>
 $this->registerCssFile('/jqgrid/highlightjs/6.0/styles/vs.css');
 
 // JS
-$this->registerJsFile('/basic/web/js/analytics-phone/index.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
-$this->registerCssFile('/basic/web/css/analytics-phone/index.css');
+$this->registerJsFile('/js/analytics-phone/index.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
+$this->registerCssFile('/css/analytics-phone/index.css');
 
 
 
