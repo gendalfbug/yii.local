@@ -6,6 +6,7 @@ use yii\web\Controller;
 use yii\filters\AccessControl;
 use yii\data\Pagination;
 use app\models\AnalyticsPhone;
+use yii\caching\FileCache;
 
 class AnalyticsPhoneController extends Controller
 {
@@ -91,6 +92,11 @@ class AnalyticsPhoneController extends Controller
            }
 
         }
+
+        $cache = new FileCache;
+        $cacheKey = 'AnalyticsPhone_totalStats';
+        $cache->set($cacheKey, false);
+
         return $this->render('create', [
             'results' => $query,
         ]);
@@ -104,6 +110,10 @@ class AnalyticsPhoneController extends Controller
            }else{
                $query[] = "[w] Ошибка удаления " ;
            }
+
+        $cache = new FileCache;
+        $cacheKey = 'AnalyticsPhone_totalStats';
+        $cache->set($cacheKey, false);
 
         return $this->render('create', [
             'results' => $query,
